@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>挂单详情</title>
+	<link rel="stylesheet" href="css/public.css">
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="topbar">
+		<div class="tb_con">
+				<p class="fl title">淘煤网·中国最专业的煤、焦大宗商品电子商务平台</p>
+				<ul class="fr">
+					<li class="zhudeng"><input type="button" value="登录"></li> 
+					<li class="zhudeng"><input type="button" value="注册" id="register"></li> 
+					<li class="shulinear">
+						<a href="javascript:void(0);" class="shu">
+						<span>客服中心</span><img src="images/index/icon1.png" alt="" width="11" height="6">
+						</a>
+						<ul class="arrow-tools">
+							<li class="select-know" style="disp lay: none;"><a href="http://www.meitanwang.net/know/list.php?catid=52">会员入门</a></li>
+							<li class="select-know" style="dis play: none;"><a href="http://www.meitanwang.net/know/list.php?catid=53">交易服务</a></li>
+							<li class="select-know" style="dis play: none;"><a href="http://www.meitanwang.net/know/list.php?catid=54">融资服务</a></li>
+							<li class="select-know" style="dis play: none;"><a href="http://www.meitanwang.net/know/list.php?catid=55">供求服务</a></li>
+							<li class="select-know" style="dis play: none;"><a href="http://www.meitanwang.net/know/list.php?catid=56">物流服务</a></li>
+						</ul>
+
+					</li>
+					<li class="shulinear">
+						<a href="javascript:void(0);" class="shu"><span>客服中心</span><img src="images/index/icon1.png" alt="" width="11" height="6">
+						</a>
+						<ul class="arrow-tools">
+							
+							<li class="select-navi" style="dis play: none;"><a href="http://www.meitanwang.net/mall">交易大厅</a></li>
+							<li class="select-navi" style="di splay: none;"><a href="http://www.meitanwang.net/job">物流中心</a></li>
+							<li class="select-navi" style="dis play: none;"><a href="http://www.meitanwang.net/buy">招标投标</a></li>
+							<li class="select-navi" style="dis play: none;"><a href="http://www.meitanwang.net/know">客服中心</a></li>
+						</ul>
+						
+					</li>
+				</ul>
+		</div>
+	</div>
+	<nav>
+		<img src="images/index/logo.png" alt="" width="243" height="71" class="fl">
+		<ul class="fr">
+			<div id="downl"></div>
+			<li><a href="#" class="currentl">公司首页</a></li>
+			<li><a href="#">公司介绍</a></li>
+			<li><a href="#">公司首页</a></li>
+			<li><a href="#">公司首页</a></li>
+			<li><a href="#">公司首页</a></li>
+			<li><a href="#">公司首页</a></li>
+			<li><a href="#">公司首页</a></li>
+		</ul>
+	</nav>
+	<div class="banner">
+		<img src="images/index/banner.gif" alt="" width="100%" height="100%">
+	</div>
+	<!-- main start -->
+	<div class="main">
+		<div class="m_left fl papermore">
+			<ul id="pa_list">
+		         <li class="current2">全部</li>
+		         <li>采购需求</li>
+		         <li>资源供应</li>     
+			</ul>
+			<div class="paper show">
+				<table border="0" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th class="">单位简称</th>
+									<th>品名</th>
+									<th>产地</th>
+									<th>指标</th>
+									<th>报盘总量</th>
+									<th>目前剩余量</th>
+									<th>报盘价</th>
+									<th>发布时间</th>
+									<th class="tlc">操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="tlc">货源</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<!--  这行为默认隐藏行 
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr> -->
+								<tr>
+									<td class="tlc">货源</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">货源</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">货源</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">货源</td>
+									<td><a href="" class="cl33">焦炭</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">货源</td>
+									<td><a href="" class="cl33">焦炭</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">货源</td>
+									<td><a href="" class="cl33">焦炭</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">货源</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="pages">
+							<div class="pages-info">
+								<span class="item left">每页15条 共22条</span>
+								<a href="" class="button">首页</a>
+								<a href="" class="button">上一页</a>
+								<a href="" class="button">下一页</a>
+								<a href="" class="button">末页</a>
+								<span class="item left">到第<input type="text" name="" value="1" class="mini-input">页</span>
+								<a href="" class="page-go">GO</a>
+							</div>
+						</div>
+			</div>
+
+			<div class="paper">
+				<table border="0" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th class="">单位简称</th>
+									<th>品名</th>
+									<th>产地</th>
+									<th>指标</th>
+									<th>报盘总量</th>
+									<th>目前剩余量</th>
+									<th>报盘价</th>
+									<th>发布时间</th>
+									<th class="tlc">操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="tlc">采购需求</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<!--  这行为默认隐藏行 
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr> -->
+								<tr>
+									<td class="tlc">采购需求</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">采购需求</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">采购需求</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">采购需求</td>
+									<td><a href="" class="cl33">焦炭</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">采购需求</td>
+									<td><a href="" class="cl33">焦炭</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">采购需求</td>
+									<td><a href="" class="cl33">焦炭</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+								<tr>
+									<td class="tlc">采购需求</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+								<tr class="vistr">
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td colspan="2">商品编号：啊实打实大时代阿什顿</td>
+									<td>起订量：不限</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="pages">
+							<div class="pages-info">
+								<span class="item left">每页15条 共22条</span>
+								<a href="" class="button">首页</a>
+								<a href="" class="button">上一页</a>
+								<a href="" class="button">下一页</a>
+								<a href="" class="button">末页</a>
+								<span class="item left">到第<input type="text" name="" value="1" class="mini-input">页</span>
+								<a href="" class="page-go">GO</a>
+							</div>
+						</div>
+			
+			</div>
+
+			<div class="paper">
+				<table border="0" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th class="">单位简称</th>
+									<th>品名</th>
+									<th>产地</th>
+									<th>指标</th>
+									<th>报盘总量</th>
+									<th>目前剩余量</th>
+									<th>报盘价</th>
+									<th>发布时间</th>
+									<th class="tlc">操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="tlc">资源供应</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+										<tr class="open1 vi str">
+											<td width="20%">名称：山西焦煤集团</td>
+											<td colspan="8">详细指标：硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000</td>
+										</tr>
+										<tr class="open2 vi str">
+											<td width="20%">联系方式：13753194313</td>
+											<td colspan="2">销售/采购品种：焦煤</td>
+											<td colspan="2">挂单吨数：30000</td>
+											<td colspan="2">发布/交付时间：2015-04-13</td>
+											<td colspan="2">物流方式：平台物流</td>
+
+										</tr>
+										<tr class="open3 vi str">
+											<td colspan="9">简介：山西焦煤集团有限责任公司（简称山西焦煤）是国内最大的炼焦煤生产企业和炼焦煤市场主供应商，是煤炭产量过亿吨、销售收入超2000亿元的特大型能源集团，位列2014世界企业5.. <a href="#">[详细]</a></td>
+										</tr>
+								<tr>
+									<td class="tlc">资源供应</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+										<tr class="open1 vistr">
+											<td width="20%">名称：山西焦煤集团</td>
+											<td colspan="8">详细指标：硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000</td>
+										</tr>
+										<tr class="open2 vistr">
+											<td width="20%">联系方式：13753194313</td>
+											<td colspan="2">销售/采购品种：焦煤</td>
+											<td colspan="2">挂单吨数：30000</td>
+											<td colspan="2">发布/交付时间：2015-04-13</td>
+											<td colspan="2">物流方式：平台物流</td>
+
+										</tr>
+										<tr class="open3 vistr">
+											<td colspan="9">简介：山西焦煤集团有限责任公司（简称山西焦煤）是国内最大的炼焦煤生产企业和炼焦煤市场主供应商，是煤炭产量过亿吨、销售收入超2000亿元的特大型能源集团，位列2014世界企业5.. <a href="#">[详细]</a></td>
+										</tr>
+								<tr>
+									<td class="tlc">资源供应</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+									
+										<tr class="open1 vistr">
+											<td width="20%">名称：山西焦煤集团</td>
+											<td colspan="8">详细指标：硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000</td>
+										</tr>
+										<tr class="open2 vistr">
+											<td width="20%">联系方式：13753194313</td>
+											<td colspan="2">销售/采购品种：焦煤</td>
+											<td colspan="2">挂单吨数：30000</td>
+											<td colspan="2">发布/交付时间：2015-04-13</td>
+											<td colspan="2">物流方式：平台物流</td>
+
+										</tr>
+										<tr class="open3 vistr">
+											<td colspan="9">简介：山西焦煤集团有限责任公司（简称山西焦煤）是国内最大的炼焦煤生产企业和炼焦煤市场主供应商，是煤炭产量过亿吨、销售收入超2000亿元的特大型能源集团，位列2014世界企业5.. <a href="#">[详细]</a></td>
+										</tr>
+								<tr>
+									<td class="tlc">资源供应</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+										<tr class="open1 vistr">
+											<td width="20%">名称：山西焦煤集团</td>
+											<td colspan="8">详细指标：硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000</td>
+										</tr>
+										<tr class="open2 vistr">
+											<td width="20%">联系方式：13753194313</td>
+											<td colspan="2">销售/采购品种：焦煤</td>
+											<td colspan="2">挂单吨数：30000</td>
+											<td colspan="2">发布/交付时间：2015-04-13</td>
+											<td colspan="2">物流方式：平台物流</td>
+
+										</tr>
+										<tr class="open3 vistr">
+											<td colspan="9">简介：山西焦煤集团有限责任公司（简称山西焦煤）是国内最大的炼焦煤生产企业和炼焦煤市场主供应商，是煤炭产量过亿吨、销售收入超2000亿元的特大型能源集团，位列2014世界企业5.. <a href="#">[详细]</a></td>
+										</tr>
+								<tr>
+									<td class="tlc">资源供应</td>
+									<td><a href="" class="cl33">焦炭</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+									
+										<tr class="open1 vistr">
+											<td width="20%">名称：山西焦煤集团</td>
+											<td colspan="8">详细指标：硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000</td>
+										</tr>
+										<tr class="open2 vistr">
+											<td width="20%">联系方式：13753194313</td>
+											<td colspan="2">销售/采购品种：焦煤</td>
+											<td colspan="2">挂单吨数：30000</td>
+											<td colspan="2">发布/交付时间：2015-04-13</td>
+											<td colspan="2">物流方式：平台物流</td>
+
+										</tr>
+										<tr class="open3 vistr">
+											<td colspan="9">简介：山西焦煤集团有限责任公司（简称山西焦煤）是国内最大的炼焦煤生产企业和炼焦煤市场主供应商，是煤炭产量过亿吨、销售收入超2000亿元的特大型能源集团，位列2014世界企业5.. <a href="#">[详细]</a></td>
+										</tr>
+								<tr>
+									<td class="tlc">资源供应</td>
+									<td><a href="" class="cl33">焦炭</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+									
+										<tr class="open1 vistr">
+											<td width="20%">名称：山西焦煤集团</td>
+											<td colspan="8">详细指标：硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000</td>
+										</tr>
+										<tr class="open2 vistr">
+											<td width="20%">联系方式：13753194313</td>
+											<td colspan="2">销售/采购品种：焦煤</td>
+											<td colspan="2">挂单吨数：30000</td>
+											<td colspan="2">发布/交付时间：2015-04-13</td>
+											<td colspan="2">物流方式：平台物流</td>
+
+										</tr>
+										<tr class="open3 vistr">
+											<td colspan="9">简介：山西焦煤集团有限责任公司（简称山西焦煤）是国内最大的炼焦煤生产企业和炼焦煤市场主供应商，是煤炭产量过亿吨、销售收入超2000亿元的特大型能源集团，位列2014世界企业5.. <a href="#">[详细]</a></td>
+										</tr>
+								<tr>
+									<td class="tlc">资源供应</td>
+									<td><a href="" class="cl33">焦炭</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+									
+										<tr class="open1 vistr">
+											<td width="20%">名称：山西焦煤集团</td>
+											<td colspan="8">详细指标：硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000</td>
+										</tr>
+										<tr class="open2 vistr">
+											<td width="20%">联系方式：13753194313</td>
+											<td colspan="2">销售/采购品种：焦煤</td>
+											<td colspan="2">挂单吨数：30000</td>
+											<td colspan="2">发布/交付时间：2015-04-13</td>
+											<td colspan="2">物流方式：平台物流</td>
+
+										</tr>
+										<tr class="open3 vistr">
+											<td colspan="9">简介：山西焦煤集团有限责任公司（简称山西焦煤）是国内最大的炼焦煤生产企业和炼焦煤市场主供应商，是煤炭产量过亿吨、销售收入超2000亿元的特大型能源集团，位列2014世界企业5.. <a href="#">[详细]</a></td>
+										</tr>
+								<tr>
+									<td class="tlc">资源供应</td>
+									<td><a href="" class="cl33">Ⅱ级冶金焦</a></td>
+									<td>山西晋中</td>
+									<td>硫小于0.5 挥发>18 发热量>5000</td>
+									<td>3000</td>
+									<td>2500</td>
+									<td><span class="price">&#165;960.00</span></td>
+									<td>2015-4-27 15:07</td>
+									<td><a href="" class="button">下单</a><a href="javascript:void(0);"class="button buttonzh jsOpen">展开</a></td>
+								</tr>
+								<!--  这行为默认隐藏行  -->
+									
+										<tr class="open1 vistr">
+											<td width="20%">名称：山西焦煤集团</td>
+											<td colspan="8">详细指标：硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000 硫小于0.5 挥发＞18 发热量＞5000</td>
+										</tr>
+										<tr class="open2 vistr">
+											<td width="20%">联系方式：13753194313</td>
+											<td colspan="2">销售/采购品种：焦煤</td>
+											<td colspan="2">挂单吨数：30000</td>
+											<td colspan="2">发布/交付时间：2015-04-13</td>
+											<td colspan="2">物流方式：平台物流</td>
+
+										</tr>
+										<tr class="open3 vistr">
+											<td colspan="9">简介：山西焦煤集团有限责任公司（简称山西焦煤）是国内最大的炼焦煤生产企业和炼焦煤市场主供应商，是煤炭产量过亿吨、销售收入超2000亿元的特大型能源集团，位列2014世界企业5.. <a href="#">[详细]</a></td>
+										</tr>
+							</tbody>
+						</table>
+						<div class="pages">
+							<div class="pages-info">
+								<span class="item left">每页15条 共22条</span>
+								<a href="" class="button">首页</a>
+								<a href="" class="button">上一页</a>
+								<a href="" class="button">下一页</a>
+								<a href="" class="button">末页</a>
+								<span class="item left">到第<input type="text" name="" value="1" class="mini-input">页</span>
+								<a href="" class="page-go">GO</a>
+							</div>
+						</div>
+			
+			</div>
+		</div>
+	</div><!-- main end -->
+	<div class="bottom_nav cl">
+		<ul>
+			<li><a>淘煤网首页 &nbsp; &nbsp;|</a></li>
+			<li><a>公司首页  &nbsp; &nbsp;|  </a></li>
+			<li><a>采供信息  &nbsp; &nbsp;| </a></li>
+			<li><a>公司介绍  &nbsp; &nbsp;|</a></li>
+			<li><a>客服中心  &nbsp; &nbsp;|</a></li>
+		</ul>
+	</div>
+	<div class="copyright">
+		<p>©2015 meitanwang.net All Rights Reserved.  淘煤网版权所有   淘煤网客服专线：400-888-1507</p>
+		<img src="images/index/scan.gif" alt="" width="113" height="114">
+	</div>
+</body>
+</html>

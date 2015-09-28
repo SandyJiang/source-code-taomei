@@ -1,0 +1,85 @@
+@import url("common.css");
+.main{width: 1200px;margin:auto;}
+.m_left{width:869px;}
+
+#list{list-style:none;height:30px;padding-bottom:10px;margin-top:10px;border-bottom:1px solid #abcdef;}
+#list li{height:30px;line-height:30px;padding:0 15px;float:left;border:1px solid #abcdef;margin-right:10px;cursor:pointer;}
+#list .current2{background:#abcdef;}
+.m_left .newL ul li{padding-left:10px;height:52px;line-height: 52px;border-bottom: 1px dashed #CEDFE6; }
+.m_left .newL ul li span{margin-left:490px;color:#3399CB;}
+.m_left .newL ul li a{color:#656565;}
+.m_left .newL ul li a:hover{color:#3399CB;}
+
+.pages{
+	text-align:center;
+	height:50px;
+	background-color:#fff;
+	padding-top:25px;
+	overflow:hidden;
+}
+.pages-info{
+	width:500px;
+	height:37px;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+.pages-info .item{
+	line-height:37px;
+	font-size:12px;
+	color:#3399cc;
+	margin-left:10px;
+}
+.pages-info .button{
+	background-color:#3399cc;
+	text-align:center;
+	line-height:37px;
+	color:#fff;
+	padding-left:12px;
+	padding-right:12px;
+	padding:5px 12px;
+	margin-left:10px;
+}
+.pages-info .mini-input{
+	height:24px;
+	width:24px;
+	flo at:left;
+	margin-top:2px;
+	margin-left:5px;
+	text-align:center;
+	border:1px solid #3399cc;
+}
+.pages-info .page-go{
+	border-radius:2px;
+	color:#fff;
+	background-color:#3399cc;
+	line-height:28px;
+	padding:5px;
+}
+
+/*右边部分*/
+.m_right{width: 310px;}
+
+.sec1 .news{margin-right:15px;}
+.n_title{width: 550px;border-bottom: 1px solid #CEDFE6;height:40px;margin-top:10px;}
+.n_title h2{height:40px;line-height: 40px;font:bold 20px/40px "微软雅黑";padding-left:2px;color:#007FCB;}
+.n_title strong{width: 3px;height:20px;background: #007FCB;display: block;margin-top:10px;}
+.n_title h2 span{font-size:14px;padding-left:5px;color:#999999;font-weight:normal;}
+.jieshao{width: 310px;}
+.jieshao .n_title{width: 310px;}
+.jieshao p{line-height: 31px;color:#656565;font-size:12px;border-bottom:1px solid #CEDFE6;padding-bottom:8px;}
+.jieshao p a{color:#FF6500;}
+.jieshao img{margin-top:10px;}
+.link .n_title{width: 310px;}
+.link .n_title h2{color:#FF6500;}
+.link .n_title strong{background:#FF6500;}
+.link{border-bottom: 1px solid #CEDFE6;clear: both;height: 250px;}
+.link ul{height:95px;border-bottom:1px dashed #CEDFE6;width: 310px;}
+.link ul li{float:left;margin-left:45px;height:95px;}
+.link ul li img{margin-top:20px;}
+.link ul li p{color:#FF6500;}
+.link p.phone span,.link p.addres span{padding:3px 15px;background: #007FCC;color:white;margin-right: 10px;margin-left: 40px;}
+.link p.phone,p.addres{margin-top:15px;font-size:14px;width:310px;} 
+.addres_w{width:140px;margin-left:80px;margin-top:15px;line-height: 24px;font-size:14px;margin-bottom:22px;}
+p.addres {width:70px;}
+p.addres span{display: block;width:70px;}

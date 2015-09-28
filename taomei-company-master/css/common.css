@@ -1,0 +1,52 @@
+*{margin:0;padding:0;}
+img,input{border:0;}
+ul,ol,li{list-style:none;}
+a{text-decoration:none;}
+body{font-size: 12px;font-family: "微软雅黑";}
+.fl{float:left;}
+.fr{float:right;}
+.cl{clear:both;}
+
+/*头部*/
+.topbar{width: 100%;height:36px;background: #F1F1F1;border-bottom:1px solid #DBDBDB;}
+.tb_con{width: 1200px;height:36px;margin:auto;line-height: 36px;}
+.tb_con p.title{color:#656565;}
+.tb_con ul li.zhudeng{float:left;padding-right:10px;}
+.tb_con ul li.zhudeng span{color: rgb(26,53,100);}
+.tb_con ul li.shulinear{float: left;position:relative;padding-right:10px;}
+
+.tb_con ul li a{color:#656565;}
+.tb_con ul li.shulinear a.shu{border-left:1px solid #ccc;padding-left:10px;}
+.tb_con ul li input{padding:3px 8px;border:1px solid #ccc; border-radius:5px;background:none;color: #136FBD;}
+.tb_con ul li span{padding-right:5px;}
+#register{color:#FF4300;}
+.tb_con ul li.shulinear .arrow-tools{position: absolute;left:0; top:38px;z-index: 2;display: none;}
+.tb_con ul li.shulinear .arrow-tools li{padding-left:12px;line-height: 24px;background: white;border-bottom:1px solid #ccc;padding-right: 18px;}
+
+
+nav{width: 1180px;height: 120px;line-height: 120px;margin:auto;bord er:1px solid red;}
+nav img{margin-top:20px;margin-left:20px;}
+nav ul{position:relative;}
+nav ul li{float:left;width:114px;text-align:center;border-left:1px solid #EFF2F5;}
+nav ul li.currentl{border-bottom:3px solid #0099CC;}
+nav ul li.currentl a{color:#0099CC;}
+nav ul li:last-child{border-right:1px solid #EFF2F5;}
+nav ul li a{color:#050503;}
+a.currentl{color:#0099CC;}
+/*#down1,#down2,#down3,#down4,#down5,#down6,#down7{width:115px;height: 3px;background:display: none;}
+#down1{position:absolute;left:0px; bottom:0;display: block;}
+#down2{position:absolute;left:115px; bottom:0;}
+#down3{position:absolute;left:230px; bottom:0;}
+#down4{position:absolute;left:345px; bottom:0;}
+#down5{position:absolute;left:460px; bottom:0;}
+#down6{position:absolute;left:575px; bottom:0;}
+#down7{position:absolute;left:690px; bottom:0;}*/
+
+/*底部*/
+.bottom_nav{width:100%;height:40px;line-height:40px;background: #EDF5FA;}
+.bottom_nav ul{width:400px;margin:auto;}
+.bottom_nav ul li{float:left;width:80px;text-align:center;}
+.bottom_nav ul li a{color:#3399CB;}
+
+.copyright{height:70px;text-align: center;}
+.copyright p{line-height: 20px;margin-top:10px;font-size:12px;color:#666666;}
